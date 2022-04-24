@@ -1,5 +1,5 @@
 # Alex Yeh
-# HW3 Question 1 true pdf classifier
+# HW4 Question 1 evaluate MLP on test set
 
 from q1_MLP_model_selection import *
 from q1_visualize import doVisualization
@@ -11,8 +11,6 @@ import numpy as np
 import pandas as pd
 from torch.utils.data import Dataset
 from torch.optim.lr_scheduler import StepLR
-import matplotlib.pyplot as plt
-from matplotlib.colors import LinearSegmentedColormap
 
 class CustomDatasetFull(Dataset):
     def __init__(self, name):

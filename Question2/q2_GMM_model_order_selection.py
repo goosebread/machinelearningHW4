@@ -31,7 +31,7 @@ if __name__ == '__main__':
     image = 'image'
 
     #model order candidates
-    orders = np.array([2,3,4,5,6,7])
+    orders = np.array(range(2,8))
 
     #average validation log likelihood
     averageValLL = np.zeros(len(orders))

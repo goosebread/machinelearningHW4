@@ -1,5 +1,5 @@
-#Base Code from pytorch tutorial
-#modified by Alex Yeh for HW4
+# Alex Yeh
+# HW4 Question 1 MLP model order selection
 
 import argparse
 import torch

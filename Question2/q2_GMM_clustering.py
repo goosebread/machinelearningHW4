@@ -18,10 +18,10 @@ model.fit(samples)
 
 #predict labels for all samples
 labels = model.predict(samples)
-print(np.unique(labels))
+#print(np.unique(labels))
 #translate labels into grayscale (between 0 and 1)
 grayscale = (labels - np.min(labels))/np.max(labels)
-print(np.unique(grayscale))
+#print(np.unique(grayscale))
 
 
 #create segmented image 

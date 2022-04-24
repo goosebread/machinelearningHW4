@@ -63,7 +63,7 @@ if __name__ == '__main__':
     #model order selection
     k=10
     Cs = np.logspace(-3,3,7) #0.001 to 1000
-    gammas = np.logspace(-3,3,7)
+    gammas = np.logspace(-3.2,3,7)
 
     results = pd.DataFrame(index = gammas)
 
